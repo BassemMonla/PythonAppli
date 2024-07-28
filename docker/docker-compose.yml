@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+  db:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: bassem
+      MYSQL_DATABASE: db_name
+      MYSQL_USER: root
+      MYSQL_PASSWORD: bassem
+    ports:
+      - "3305:3305"
