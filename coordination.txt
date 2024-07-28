@@ -1,3 +1,4 @@
 Ceci est un test de coordination avec git
 Je vais envoyer ce fichier a github
-Ceci est un deuxième test de coordination
+Ceci est un deuxiï¿½me test de coordination
+voici une premiere modification de ce fichier
